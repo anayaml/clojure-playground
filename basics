@@ -1,0 +1,24 @@
+(ns basics)
+
+; str function will create a single string out of all its arguments
+(str "Hello" " " "World")
+
+; Math is straightforward
+(+ 1 1)
+(- 2 1)
+(* 1 2)
+(/ 2 1)
+
+; Logic comes with a not at the beggining
+(not true) ; equals False
+(not false) ; equals True
+
+; Nesting forms works how we expect to do
+(+ 1 (- 3 2));
+
+
+; Clojure uses Javas object types, most different is "null" since Clojure recognizes as "nil"
+(class nil)
+
+; ' works as a shortcut from command "quote", which stops the line of code from being evaluated
+'(+ 1 2)
